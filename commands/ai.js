@@ -11,7 +11,7 @@ module.exports = {
 
         if (!input) {
             api.sendMessage(
-                `Hello there!\n\n Saya seorang AI yang dikembangkan oleh arul dan pina. Saya di sini untuk membantu Anda dengan pertanyaan atau tugas apa pun yang mungkin Anda miliki.\n\nUsage: ai [pertanyaanmu]`,
+                `Hello there!\n\n Saya seorang AI yang dikembangkan oleh arul. Saya di sini untuk membantu Anda dengan pertanyaan atau tugas apa pun yang mungkin Anda miliki.\n\nUsage: ai [pertanyaanmu]`,
                 event.threadID,
                 event.messageID
             );
