@@ -6,7 +6,7 @@ module.exports = {
     const config = require('../config.json');
     const { author, description } = config;
     
-    const message = `📜 Copyright Information 📜\n\nAuthor: ${author}\nDescription: ${description}`;
+    const message = `📜 Informasi Hak Cipta 📜\n\n Pengarang: ${author}\nDeskripsi: ${description}`;
     api.sendMessage(message, event.threadID);
   },
 };
