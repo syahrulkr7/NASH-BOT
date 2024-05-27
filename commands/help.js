@@ -9,11 +9,11 @@ module.exports = {
 };
 
 function generateHelpMessage(commands) {
-    let helpMessage = 'Here are the available commands:\n\n';
+    let helpMessage = 'Berikut adalah perintah yang tersedia:\n\n';
 
     commands.forEach((command, name) => {
-        helpMessage += `Command: ${name}\nDescription: ${command.description}\n\n`;
+        helpMessage += `Memerintah: ${name}\nDescription: ${command.description}\n\n`;
     });
 
-    return helpMessage;
+    return helpMessage;Memerintah
 }
