@@ -14,5 +14,5 @@ function calculateUptime() {
   const hours = Math.floor(time / (60 * 60));
   const minutes = Math.floor((time % (60 * 60)) / 60);
   const seconds = Math.floor(time % 60);
-  return `Bot is running ${hours} hour(s), ${minutes} minute(s), and ${seconds} second(s)`;
+  return `Bot sedang berjalan ${hours} jam(s), ${minutes} menit(s), dan ${seconds} detik(s)`;
 }
