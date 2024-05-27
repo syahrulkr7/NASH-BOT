@@ -3,10 +3,10 @@ module.exports = {
   description: 'Replies with the prefix',
   execute(api, event, args, prefix) { // Add prefix as a parameter
     try {
-      api.sendMessage(`The current prefix is: ${prefix}`, event.threadID);
+      api.sendMessage(`Awalan saat ini adalah: ${prefix}`, event.threadID);
     } catch (error) {
-      console.error('Error executing command:', error);
-      api.sendMessage('An error occurred while executing the command.', event.threadID);
+      console.error('Kesalahan saat menjalankan perintah:', error);
+      api.sendMessage('Terjadi kesalahan saat menjalankan perintah.', event.threadID);
     }
   },
 };
